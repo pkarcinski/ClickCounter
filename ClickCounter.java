@@ -23,7 +23,7 @@ public class ClickCounter extends JFrame implements ActionListener{
        
         frame = new JFrame();
         panel = new JPanel();
-        button = new JButton("click me");
+        button = new JButton("click me!");
         button.addActionListener(this);
  
         label = new JLabel("Number of clicks : 0" );
